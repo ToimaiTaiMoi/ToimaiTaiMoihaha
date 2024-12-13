@@ -1,6 +1,19 @@
 #include<iostream>
 using namespace std;
 
+int printO(int a, int b){
+    if(a <= 0 or b <= 0){
+        cout << "Invalid input";
+    }
+    for(int i = 0; i < a; i++){
+        for(int ii = 0; ii < b; ii++){
+            cout << "O";
+    }
+    cout << "\n";
+}
+return 0;
+}
+
 //Write the function printO() here
 
 int main(){
@@ -22,3 +35,4 @@ int main(){
 	
 	return 0;
 }
+
